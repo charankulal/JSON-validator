@@ -1,0 +1,10 @@
+{
+    "required": ["id", "name"],
+    "oneOf": ["homePhone", "cellPhone", "workPhone"],
+    "eitherOr": ["birthDate", "govtIdNumber"],
+    "exclusiveFields": ["homePhone", "cellPhone","workPhone"],
+    "enum": {
+      "day": ["SU", "MO", "TU", "WE", "TH", "FR", "SA"]
+    }
+  }
+  
